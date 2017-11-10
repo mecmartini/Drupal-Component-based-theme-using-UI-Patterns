@@ -1,0 +1,33 @@
+button_one:
+  label: Button one
+  description: A button template.
+  fields:
+    button_one_label:
+      type: string
+      label: Button label
+      description: The label to print into the button.
+      preview: Label
+  libraries:
+    - soulweb/button.one
+  use: '@atoms/buttons/button-one/button-one.html.twig'
+
+paragraph_one:
+  label: Paragraph one
+  description: A paragraph template.
+  fields:
+    image:
+      type: image
+      label: Image
+      description: An image.
+      preview: '<img src="http://lorempixel.com/640/480/nature/1/" title="An image" />'
+    text:
+      type: text
+      label: Text
+      description: A text.
+      preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget vulputate tellus, vel aliquam sapien. Donec convallis nibh eu volutpat egestas. Nullam enim metus, placerat eleifend condimentum id, sodales in arcu. Quisque vel lacus odio. Nullam vel massa quis lectus ullamcorper placerat. Cras at turpis nec nisl porttitor posuere quis et massa. Etiam mattis leo nec laoreet venenatis. Donec dictum nunc eget tristique molestie. Duis vel mi justo. Vivamus sagittis justo erat, eu tempor elit malesuada in. Praesent sem lorem, aliquet lobortis rhoncus sed, sagittis vitae nunc. Phasellus convallis dui a augue hendrerit, non scelerisque augue mollis. Vivamus congue, mi sit amet rhoncus finibus, nisi nisi posuere mi, id dictum nibh augue nec arcu.
+    button_label:
+      type: string
+      label: Button label
+      description: The label to print into the button.
+      preview: Label
+  use: '@paragraphs_component/paragraph-one/paragraph-one.html.twig'

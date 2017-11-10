@@ -1,0 +1,16 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+button.one:
+  version: 1.x
+  css:
+    component:
+      components/atoms/buttons/button-one/button-one.css: {}
+  js:
+    components/atoms/buttons/button-one/button-one.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/jquery.ui.dialog
